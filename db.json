@@ -40,26 +40,24 @@
     }
   ],
   "tags": [
-    [
-      {
-        "id": 1,
-        "categoryId": 1,
-        "name": "Tag1",
-        "userId": 1
-      },
-      {
-        "id": 2,
-        "categoryId": 1,
-        "name": "Tag2",
-        "userId": 2
-      },
-      {
-        "id": 3,
-        "categoryId": 2,
-        "name": "Tag3",
-        "userId": 3
-      }
-    ]
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Tag1",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Tag2",
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Tag3",
+      "userId": 3
+    }
   ],
   "projects": [
     {
