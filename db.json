@@ -1,0 +1,110 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstName": "Lorem1",
+      "lastName": "Ipsum1",
+      "email": "1@test.com"
+    },
+    {
+      "id": 1,
+      "firstName": "Lorem2",
+      "lastName": "Ipsum2",
+      "email": "2@test.com"
+    },
+    {
+      "id": 1,
+      "firstName": "Lorem3",
+      "lastName": "Ipsum3",
+      "email": "3@test.com"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Category1",
+      "type": ["Project"],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Category2",
+      "type": ["Project", "Document"],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "name": "Category3",
+      "type": ["Document"],
+      "userId": 3
+    }
+  ],
+  "tags": [
+    [
+      {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Tag1",
+        "userId": 1
+      },
+      {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Tag2",
+        "userId": 2
+      },
+      {
+        "id": 3,
+        "categoryId": 2,
+        "name": "Tag3",
+        "userId": 3
+      }
+    ]
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Project1",
+      "description": "Project Description1",
+      "tagId": [1],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Project2",
+      "description": "Project Description2",
+      "tagId": [1, 2],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "name": "Project2",
+      "description": "Project Description2",
+      "tagId": [2],
+      "userId": 3
+    }
+  ],
+  "documents": [
+    {
+      "id": 1,
+      "name": "Document1",
+      "description": "Document Description1",
+      "tagId": [2],
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "name": "Document2",
+      "description": "Document Description2",
+      "tagId": [2, 3],
+      "userId": 2
+    },
+    {
+      "id": 3,
+      "name": "Document2",
+      "description": "Document Description2",
+      "tagId": [3],
+      "userId": 3
+    }
+  ]
+}
