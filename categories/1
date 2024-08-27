@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Category1",
+    "type": [
+      "Project"
+    ],
+    "userId": 1
+  },
+  {
+    "id": 2,
+    "name": "Category2",
+    "type": [
+      "Project",
+      "Document"
+    ],
+    "userId": 2
+  },
+  {
+    "id": 3,
+    "name": "Category3",
+    "type": [
+      "Document"
+    ],
+    "userId": 3
+  }
+]
