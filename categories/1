@@ -1,16 +1,16 @@
 [
   {
     "id": 1,
-    "name": "Category1",
-    "type": [
+    "name": "France",
+    "types": [
       "Project"
     ],
     "userId": 1
   },
   {
     "id": 2,
-    "name": "Category2",
-    "type": [
+    "name": "England",
+    "types": [
       "Project",
       "Document"
     ],
@@ -18,8 +18,8 @@
   },
   {
     "id": 3,
-    "name": "Category3",
-    "type": [
+    "name": "Italian",
+    "types": [
       "Document"
     ],
     "userId": 3

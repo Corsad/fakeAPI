@@ -22,20 +22,20 @@
   "categories": [
     {
       "id": 1,
-      "name": "Category1",
-      "type": ["Project"],
+      "name": "France",
+      "types": ["Project"],
       "userId": 1
     },
     {
       "id": 2,
-      "name": "Category2",
-      "type": ["Project", "Document"],
+      "name": "England",
+      "types": ["Project", "Document"],
       "userId": 2
     },
     {
       "id": 3,
-      "name": "Category3",
-      "type": ["Document"],
+      "name": "Italian",
+      "types": ["Document"],
       "userId": 3
     }
   ],
@@ -48,15 +48,27 @@
     },
     {
       "id": 2,
-      "categoryId": 1,
+      "categoryId": 2,
       "name": "Tag2",
       "userId": 2
     },
     {
       "id": 3,
-      "categoryId": 2,
+      "categoryId": 3,
       "name": "Tag3",
       "userId": 3
+    },
+    {
+      "id": 4,
+      "categoryId": 1,
+      "name": "Tag4",
+      "userId": 1
+    },
+    {
+      "id": 5,
+      "categoryId": 2,
+      "name": "Tag5",
+      "userId": 1
     }
   ],
   "projects": [
